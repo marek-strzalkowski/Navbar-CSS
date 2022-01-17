@@ -10,7 +10,6 @@ bodyClass.add(theme);
 function toggleTheme() {
   const current = localStorage.getItem('theme');
   const next = themes[current];
-
   bodyClass.replace(current, next);
   localStorage.setItem('theme', next);
 }
