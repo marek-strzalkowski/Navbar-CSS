@@ -15,7 +15,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: var(--bg-secondary);
-  color: var(--text-secondary);
+  	color: var(--text-secondary);
 }
 
 body::-webkit-scrollbar {
@@ -39,7 +39,7 @@ main {
 	position: fixed;
 	background-color: var(--bg-primary);
 	transition: width 500ms ease;  
-  z-index: 1;
+  	z-index: 1;
 }
 
 .navbar-nav {
@@ -170,13 +170,11 @@ main {
     display: inline;
   }
 
-  .navbar:hover .logo svg
-  {
+  .navbar:hover .logo svg {
     margin-left: 14rem;
   }
 
-  .navbar:hover .logo-text
-  {
+  .navbar:hover .logo-text {
     left: 0px;
   }
 }
@@ -226,8 +224,7 @@ main {
     width: 100%;
     border-radius: 4px;
     transition: all 500ms;
-    overflow: hidden;
-    
+    overflow: hidden;    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -271,7 +268,7 @@ main {
 	}
 	.card{
 		margin-bottom: 1rem;
-    padding: 20px 0;
+    		padding: 20px 0;
 	}
 }
 
